@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeghetmaar", "Zeghetmaar\Zeghetmaar.csproj", "{F3547900-8040-43E9-8F1A-42987C1528E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginAsp", "LoginAsp\LoginAsp.csproj", "{A9FAD022-16CC-40FE-93F5-D3B9891A0AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginMVC", "LoginMVC\LoginMVC.csproj", "{BFE614DB-71B0-4A2F-932E-48B2576A55DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3547900-8040-43E9-8F1A-42987C1528E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3547900-8040-43E9-8F1A-42987C1528E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3547900-8040-43E9-8F1A-42987C1528E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3547900-8040-43E9-8F1A-42987C1528E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FAD022-16CC-40FE-93F5-D3B9891A0AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FAD022-16CC-40FE-93F5-D3B9891A0AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FAD022-16CC-40FE-93F5-D3B9891A0AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FAD022-16CC-40FE-93F5-D3B9891A0AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE614DB-71B0-4A2F-932E-48B2576A55DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE614DB-71B0-4A2F-932E-48B2576A55DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE614DB-71B0-4A2F-932E-48B2576A55DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE614DB-71B0-4A2F-932E-48B2576A55DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC03DBDB-F5DC-4D61-9781-340D3B2F5DE2}
+	EndGlobalSection
+EndGlobal

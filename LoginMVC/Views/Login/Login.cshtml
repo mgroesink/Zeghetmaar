@@ -1,0 +1,21 @@
+﻿
+
+@using (Html.BeginForm("LoginSafe", "Login", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    @if (ViewBag.Error != null)
+    {
+        <p class="alert-danger">@ViewBag.Error</p>
+    }
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" id="username" name="username" value="@ViewBag.UserName" /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" id="password" name="password" /></td>
+        </tr>
+    </table>
+    <input type="submit" value="Login" />
+}
